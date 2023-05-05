@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.imagem575 {
+    display: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+}
+.divinha a {
+    color: white;
+    padding: 7.5px 23px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 500;
+}
+.assine, .inicie {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-align: center;
+    width: 190px;
+}
+.inicie {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    padding: 8px 0;
+    margin: 15px 0 50px 0;
+}
+.inicie:hover {
+    background: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.assine {
+    height: auto;
+    padding: 10px 0;
+    margin-top: 17px;
+    color: white;
+}
+.pai {
+    color: white;
+    height: 90vh;
+    background-image: url(https://hbomax-images.warnermediacdn.com/2022-04/ctv3x.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1366);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    text-transform: none;
+    min-width: 1110px;
+    display: flex;
+    justify-content: flex-start;
+}
+section div {
+    width: 600px;
+}
+section h1 {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 55px;
+}
+section p {
+    font-weight: 300;
+    font-size: 19.5px;
+}
+
+footer {
+    color: #9e86ff;
+    background-color: #030328;
+    display: flex;
+    justify-content: center;
+}
+footer div {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+.roda-top, .roda-mid, footer p {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 17px 45px;
+    flex-wrap: wrap;
+}
+.roda-top {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.roda-mid, footer p {
+    font-size: 11.5px;
+}
+footer p {
+    text-align: center;
+}
+footer a {
+    color: #9e86ff;
+}
+footer a:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.rosa {
+    background-color:rgb(181, 53, 246);
+}
+.rosa:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+header {
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    width: 100vw;
+    height: 53px;
+    padding: 0 10px 0 6px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+header img {
+    width: 160px;
+    height: 45px;
+    margin: 0 10px;
+}
+
+header .divinha {
+    display: flex;
+    padding-right: 23px;
+}

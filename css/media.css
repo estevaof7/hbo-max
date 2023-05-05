@@ -1,0 +1,73 @@
+@media (max-width: 1200px) {
+    section {
+        min-width: 925px;
+    }
+    section div {
+        width: 475px;
+    }
+}
+
+@media (max-width: 991px) {
+    section {
+        min-width: 690px;
+    }
+    section div {
+        width: 350px;
+    }
+    footer div {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        min-width: 510px;
+        margin-top: -120px;
+    }
+    section div {
+        width: 510px;
+    }
+    section p {
+        font-size: 18.5px;
+        line-height: 30px;
+        margin-top: 8px;
+    }
+    footer div {
+        max-width: 495px;
+    }
+}
+
+@media (max-width: 575px) {
+    header img {
+        width: 120px;
+    }
+    header .divinha {
+        padding-right: 7px;
+    }
+    .divinha a {
+        padding: 7.5px 23px;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .divinha .account {
+        padding: 7.5px 13px;
+    }
+    section {
+        min-width: 100%;
+        padding: 0 15px;
+        margin-top: -160px;
+    }
+    section h1 {
+        font-size: 30px;
+    }
+    section p {
+        margin-top: auto;
+    }
+    section div {
+        width: 100%;
+    }
+    footer div {
+        max-width: 100%;
+        margin: auto 33px;
+    }
+}
