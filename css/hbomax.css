@@ -63,12 +63,13 @@ section {
     justify-content: flex-start;
 }
 section div {
-    width: 600px;
+    width: 590px;
 }
 section h1 {
     font-size: 47px;
     font-weight: 400;
     line-height: 55px;
+    margin-bottom: 10px;
 }
 section p {
     font-weight: 300;
